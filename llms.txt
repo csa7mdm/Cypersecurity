@@ -1,0 +1,32 @@
+# Cybersecurity Agent Platform (Cypersecurity)
+
+An autonomous, AI-driven cybersecurity platform for network scanning, vulnerability analysis, and remediation orchestration.
+
+## Core Capabilities
+- **Scan Planning**: Generates multi-step security assessment strategies.
+- **Protocol Analysis**: Deep inspection of WiFi (802.11), Bluetooth, and IP networks.
+- **Vulnerability Analysis**: AI-powered interpretation of scan results and CVE mapping.
+- **Remediation**: Orchestrated response and security hardening.
+
+## Technical Stack
+- **Rust Core**: Memory-safe, high-performance collectors and scanners.
+- **Go Gateway**: Distributed API orchestration via gRPC and REST.
+- **Python Brain**: Agentic reasoning using OpenRouter (OpenAI-compatible SDK).
+- **React Dashboard**: Live visualization and command interface.
+
+## AI Interaction Guidelines
+- **Discovery**: Use the Brain service (Python) for reasoning tasks.
+- **Execution**: Use the Gateway (Go) for resource management and data retrieval.
+- **Safety**: Honor the built-in kill switch (`POST /api/v1/emergency/stop`) and confirmation flows.
+
+## Project Structure
+- `/brain`: Python-based reasoning engine.
+- `/core`: Rust-based packet capture and scanning.
+- `/gateway`: Go-based central orchestration.
+- `/dashboard`: React-based web interface.
+- `/docs`: Technical specifications and API contracts.
+
+## Resources
+- [Main README](https://github.com/csa7mdm/Cypersecurity)
+- [Architecture](https://github.com/csa7mdm/Cypersecurity/blob/main/ARCHITECTURE.md)
+- [API Contracts](https://github.com/csa7mdm/Cypersecurity/blob/main/API_CONTRACTS.md)

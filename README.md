@@ -1,5 +1,7 @@
 # 🛡️ Cybersecurity Agent Platform
 
+![Cybersecurity Agent Platform Preview](./preview.png)
+
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Architecture](https://img.shields.io/badge/Arch-Polyglot-orange.svg)](#architecture)
 [![AI-Powered](https://img.shields.io/badge/AI-Agentic-purple.svg)](#ai-agentic-brain)
