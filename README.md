@@ -18,6 +18,7 @@
 - [Technology Stack](#technology-stack)
 - [Quick Start](#quick-start)
 - [API Documentation](#api-documentation)
+- [Development Roadmap](#development-roadmap)
 - [Deployment](#deployment)
 - [Security & Compliance](#security--compliance)
 
@@ -173,6 +174,48 @@ kubectl get pods -n cypersecurity
 ```
 
 See [k8s/README.md](k8s/README.md) for detailed deployment guide.
+
+---
+
+## 🚧 Development Roadmap
+
+### Current Status: Phase 4 (Product Functionality)
+
+**Completed** ✅:
+- Enterprise architecture (multi-tenancy, RBAC, compliance)
+- Kubernetes deployment infrastructure
+- Professional reporting engine
+- Cryptographic audit trails
+- **Nmap Scanner Integration** (18 tests, TDD approach)
+
+**In Progress** 🔄:
+- OWASP ZAP integration (web vulnerability scanning)
+- CVE database integration
+- Billing system (Stripe)
+
+**Next Up** 📋:
+- Email notifications
+- User onboarding flow
+- Complete test coverage (80%+ target)
+- CI/CD pipeline
+
+### Product Development Phases
+
+| Phase | Status | Features | Timeline |
+|-------|--------|----------|----------|
+| **Phase 1-3** | ✅ Complete | Architecture, Multi-tenancy, K8s | Done |
+| **Phase 4** | 🔄 Active | Scanners, Billing, Tests | 8 weeks |
+| **Phase 5** | 📋 Planned | Onboarding, Docs, UX | 4 weeks |
+| **Phase 6** | 📋 Planned | Quality, CI/CD | 4 weeks |
+| **Phase 7** | 📋 Planned | Analytics, Optimization | 2 weeks |
+
+**Priority Features (P0)**:
+1. ✅ Nmap Integration - **COMPLETE**
+2. 🔄 OWASP ZAP Integration - In Progress
+3. 📋 Stripe Billing - Next
+4. 📋 Email Notifications - Next
+
+See [implementation_plan.md](.gemini/antigravity/brain/197151ce-a0b0-41dd-98e5-7d124bc30050/implementation_plan.md) for detailed roadmap.
 
 ---
 
