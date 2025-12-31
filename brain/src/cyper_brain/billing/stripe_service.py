@@ -77,6 +77,13 @@ Plan.ENTERPRISE = Plan(
     ]
 )
 
+# Pricing tier limits (enforced)
+PRICING_TIERS = {
+    "free": {"scans_per_month": 100, "price": 0},
+    "pro": {"scans_per_month": 1000, "price": 9900},  # $99
+    "enterprise": {"scans_per_month": -1, "price": None}  # Unlimited, custom
+}
+
 
 @dataclass
 class Subscription:
