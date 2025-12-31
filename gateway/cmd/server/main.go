@@ -107,6 +107,8 @@ func main() {
 		authHandler := api.NewAuthHandler(authService, auditLogger)
 		reportHandler := api.NewReportHandler(brainClient, logger)
 		orgHandler := api.NewOrganizationHandler(db, logger)
+		scanAuthHandler := api.NewScanAuthorizationHandler(db, logger)
+		emergencyHandler := api.NewEmergencyHandler(db, redisClient, auditLogger, logger)
 
 		// Public routes
 		auth := v1.Group("/auth")
