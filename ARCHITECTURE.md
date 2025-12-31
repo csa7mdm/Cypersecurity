@@ -41,6 +41,15 @@ A comprehensive, AI-driven cybersecurity platform that provides:
 - IoT devices
 - WiFi networks
 
+### Enterprise Features (Phase 2-3)
+- **Multi-Tenancy**: Organizations with row-level security
+- **RBAC**: Owner, Admin, Scanner, Viewer roles
+- **Compliance**: Cryptographic audit signing (Ed25519)
+- **Authorization Workflow**: Permission to Scan with document verification
+- **Emergency Controls**: Platform-wide kill switch
+- **Production Infrastructure**: Kubernetes with auto-scaling
+- **Observability**: Prometheus metrics and structured logging
+
 ---
 
 ## 🛠️ Technology Stack
