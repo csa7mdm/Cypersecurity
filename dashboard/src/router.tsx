@@ -7,6 +7,7 @@ import Login from './pages/auth/Login';
 import Signup from './pages/auth/Signup';
 import OnboardingWizard from './pages/onboarding/Wizard';
 import ComponentShowcase from './pages/demo/ComponentShowcase';
+import Scans from './pages/Scans';
 import Dashboard from './pages/dashboard/Home';
 
 // Protected Route wrapper
@@ -31,6 +32,14 @@ const AppRouter: React.FC = () => {
                     element={
                         <ProtectedRoute>
                             <Dashboard />
+                        </ProtectedRoute>
+                    }
+                />
+                <Route
+                    path="/scans"
+                    element={
+                        <ProtectedRoute>
+                            <Scans />
                         </ProtectedRoute>
                     }
                 />
